@@ -12,6 +12,22 @@ dist
 dist-ssr
 *.local
 
+# Environment files
+.env
+.env.*
+
+# Vite build output
+build
+coverage
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Misc
+public/*.lock
+public/*.tmp
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
